@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,17 +14,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LA_PRIMERA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELLO WORLD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEW-5Q-bBR">
-                                <rect key="frame" x="86" y="315.5" width="203.5" height="36"/>
+                                <rect key="frame" x="105.33333333333331" y="350" width="203.33333333333337" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCL-aF-bdD">
-                                <rect key="frame" x="144" y="371.5" width="87" height="36"/>
+                                <rect key="frame" x="163.66666666666666" y="406" width="87" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="OPTION 1"/>
                                 <connections>
@@ -32,7 +32,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyR-tD-4Is">
-                                <rect key="frame" x="143" y="417.5" width="90" height="36"/>
+                                <rect key="frame" x="162" y="452" width="90" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="OPTION 2"/>
                                 <connections>
@@ -40,7 +40,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="qLb-8u-vY9">
-                                <rect key="frame" x="137.5" y="245.5" width="100" height="50"/>
+                                <rect key="frame" x="157" y="280" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="k6P-kh-ivq"/>
                                     <constraint firstAttribute="width" constant="100" id="wJy-OQ-l4l"/>
@@ -50,7 +50,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="dpp-Nc-wwt">
-                                <rect key="frame" x="137.5" y="185.5" width="100" height="50"/>
+                                <rect key="frame" x="157" y="220" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8mB-le-9Rt"/>
                                     <constraint firstAttribute="width" constant="100" id="caZ-Lc-PZH"/>
@@ -59,8 +59,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="casa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7H-ls-0mi">
-                                <rect key="frame" x="157" y="129.5" width="61" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="casa" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7H-ls-0mi">
+                                <rect key="frame" x="176.66666666666666" y="164" width="60.666666666666686" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -75,6 +75,7 @@
                             <constraint firstItem="BCL-aF-bdD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nh0-gO-Hrj"/>
                             <constraint firstItem="dpp-Nc-wwt" firstAttribute="top" secondItem="x7H-ls-0mi" secondAttribute="bottom" constant="20" id="OWZ-7g-hFb"/>
                             <constraint firstItem="tyR-tD-4Is" firstAttribute="top" secondItem="BCL-aF-bdD" secondAttribute="bottom" constant="10" id="PGX-K3-q4a"/>
+                            <constraint firstItem="x7H-ls-0mi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XZ4-3A-nsb"/>
                             <constraint firstItem="BCL-aF-bdD" firstAttribute="top" secondItem="lEW-5Q-bBR" secondAttribute="bottom" constant="20" id="Zfw-FZ-snA"/>
                             <constraint firstItem="lEW-5Q-bBR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bRH-s0-Ss6"/>
                             <constraint firstItem="qLb-8u-vY9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hGK-B7-ogj"/>
@@ -84,15 +85,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="bottomTextField" destination="qLb-8u-vY9" id="a6l-L3-M6y"/>
-                        <outlet property="casa" destination="x7H-ls-0mi" id="DH9-Gl-VnV"/>
+                        <outlet property="bottomTextField" destination="qLb-8u-vY9" id="6mV-Lh-7wV"/>
+                        <outlet property="casa" destination="x7H-ls-0mi" id="mjl-FL-Shh"/>
                         <outlet property="myGreatLabel" destination="lEW-5Q-bBR" id="Z62-gm-Jsi"/>
-                        <outlet property="topTextField" destination="dpp-Nc-wwt" id="lxs-Vb-WGN"/>
+                        <outlet property="topTextField" destination="dpp-Nc-wwt" id="gPp-9x-FPP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="98.50074962518741"/>
+            <point key="canvasLocation" x="136.23188405797103" y="97.826086956521749"/>
         </scene>
     </scenes>
 </document>

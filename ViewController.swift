@@ -17,10 +17,15 @@ class ViewController: UIViewController {
     //utilizando la tecla "control" creamos esta conexion. es necesario recordar que si se quiere eliminar, es necesario hacerlo en el codigo y luego en el "mundo real de la app".
     
     //SECTION 2 LECTURE 12
-    var buttonCount = 0
+   // var buttonCount = 0
     
     
     @IBOutlet weak var myGreatLabel: UILabel!
+    
+    @IBOutlet weak var casa: UILabel!
+    
+    @IBOutlet weak var topTextField: UITextField!
+    @IBOutlet weak var bottomTextField: UITextField!
     
     
     /*creando el primer boton:
@@ -42,7 +47,26 @@ class ViewController: UIViewController {
     
     
     @IBAction func color1(_ sender: Any) {
+
         
+        let age = topTextField.text!
+        
+        let height = bottomTextField.text!
+            
+        casa.text = "mi edad es \(age) a~os y mi estatura son \(height) metros de altura"
+        
+        
+    }
+        //Haciendo el ejercicio del video:
+        
+        
+        
+        
+/*
+let sum = Double(topTextField.text!)! + Double(bottomTextField.text!)!
+        
+        myGreatLabel.text = "\(topTextField.text!) + \(bottomTextField.text!) = \(sum)"
+*/
       /*  buttonCount = buttonCount + 1
         
         print(buttonCount)
@@ -64,7 +88,7 @@ class ViewController: UIViewController {
             myGreatLabel.textColor = UIColor.black
         }
  */
- }
+ 
     
     
     // Boton 2: Para la Opcion 2 de colores.
@@ -95,15 +119,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-   
-    /*Section 3 Lecture 18 Text Fields
-     */
-    
-    @IBOutlet weak var casa: UILabel!
-    
-    @IBOutlet weak var topTextField: UITextField!
-   
-    @IBOutlet weak var bottomTextField: UITextField!
-}
+   }
 
 
