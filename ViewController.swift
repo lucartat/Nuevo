@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var topTextField: UITextField!
     @IBOutlet weak var bottomTextField: UITextField!
     
+    @IBOutlet weak var additionSwitch: UISwitch!
     
     /*creando el primer boton:
      1. se hico la connecion manual con la tecla "control".
@@ -48,14 +49,27 @@ class ViewController: UIViewController {
     
     @IBAction func color1(_ sender: Any) {
 
+        let addition : Bool = additionSwitch.isOn
         
-        let age = topTextField.text!
+        if addition {
         
-        let height = bottomTextField.text!
+        let numeroUno : String = topTextField.text!
+        
+        let numeroDos : String = bottomTextField.text!
+        
+        let sum = Double(numeroUno)! + Double(numeroDos)!
+        casa.text = "La Suma de \(topTextField.text!) + \(bottomTextField.text!) es = \(sum)"
+        
+        } else {
             
-        casa.text = "mi edad es \(age) a~os y mi estatura son \(height) metros de altura"
-        
-        
+            let numeroUno : String = topTextField.text!
+            
+            let numeroDos : String = bottomTextField.text!
+            
+            let sum = Double(numeroUno)! - Double(numeroDos)!
+            casa.text = "La Resta de \(topTextField.text!) - \(bottomTextField.text!) es = \(sum)"
+            
+        }
     }
         //Haciendo el ejercicio del video:
         

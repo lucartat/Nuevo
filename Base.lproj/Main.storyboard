@@ -65,6 +65,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2yc-wO-A8R">
+                                <rect key="frame" x="183" y="521" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -85,6 +89,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="additionSwitch" destination="2yc-wO-A8R" id="gXj-4J-JY9"/>
                         <outlet property="bottomTextField" destination="qLb-8u-vY9" id="6mV-Lh-7wV"/>
                         <outlet property="casa" destination="x7H-ls-0mi" id="mjl-FL-Shh"/>
                         <outlet property="myGreatLabel" destination="lEW-5Q-bBR" id="Z62-gm-Jsi"/>
