@@ -1,4 +1,6 @@
-//Hello example 
+//TAKE 3 COLOR
+
+//Hello example
 //Using the new tool
 
 //  ViewController.swift
@@ -56,10 +58,10 @@ class ViewController: UIViewController {
             myGreatLabel.textColor = UIColor.white
         }
         
-        if buttonCount >= 14 {
-            view.backgroundColor = UIColor.black
+        if buttonCount >= 15 {
+            view.backgroundColor = UIColor.green
             myGreatLabel.text = "GREAT"
-            myGreatLabel.textColor = UIColor.red
+            myGreatLabel.textColor = UIColor.black
         }
     }
     
