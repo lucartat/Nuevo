@@ -92,6 +92,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+   
+    /*Section 3 Lecture 18 Text Fields
+     */
     
+    @IBOutlet weak var casa: UILabel!
     
+    @IBOutlet weak var topTextField: UITextField!
+   
+    @IBOutlet weak var bottomTextField: UITextField!
 }
+
+
