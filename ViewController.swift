@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     @IBAction func color1(_ sender: Any) {
         
-        buttonCount = buttonCount + 1
+      /*  buttonCount = buttonCount + 1
         
         print(buttonCount)
         
@@ -63,21 +63,24 @@ class ViewController: UIViewController {
             myGreatLabel.text = "GREAT"
             myGreatLabel.textColor = UIColor.black
         }
-    }
+ */
+ }
     
     
     // Boton 2: Para la Opcion 2 de colores.
     
     
     @IBAction func color2(_ sender: Any) {
-    
+   
+        /*
         view.backgroundColor = UIColor.yellow
         
         myGreatLabel.text = "LUIS IS FANTASTIC"
         
         myGreatLabel.textColor = UIColor.black
     
-    }
+ */
+ }
     
     
     override func viewDidLoad() {
